@@ -1,0 +1,118 @@
+/*
+	the only important design item not placed in this file
+	is the background colour for the searchbox which users
+	can take from ADDSEARCHBOX.ASP
+	
+	this is defined in COMMON.ASP as "sboxcolour"
+
+	setting it in COMMON.ASP will display the searchbox on
+	the ADDSEARCHBOX.ASP page and also adjust the code visible
+	on the same page for users to download and past into their
+	own site
+*/
+body {
+	background-image:  url(../media/background.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 130%;
+}
+table {
+	background-color:#FFFFFF;
+	border: 1px solid #999999;
+	margin: auto; 
+	text-align: center;
+	width: 90%;
+}
+table.middle {	
+	background-color:#99CCFF;
+	text-align: left;
+	width: 100%;
+}
+table.footer {
+	background-color:#99CCFF;
+	font-size: 10px;
+	width: 100%;
+}
+table.mainsearch {
+	background-color: #0099FF;
+	text-align: center;	
+	width: 100%;
+}
+table.searchbox {
+	background-color: #0099FF;
+	text-align: center;
+	width: 0%;
+}
+table.resultbox {
+	background-color: #0099FF;
+	text-align: left;
+	width: 100%;
+}
+table.resultpaging {
+	border: 0px;
+}
+table.examples {
+	border: 0px;
+	font-size: 11px;
+	text-align: left;
+	width: 90%;
+}
+table.addsb { 
+	border: 1px;
+	font-size: 11px;
+	width: 50%;
+}
+table.admin { 
+	background-color:#FFFFFF;
+	text-align: left;
+	width: 90%;
+}
+td {
+	padding: 10px;
+}
+.trWhite {
+	background-color: #FFFFFF;
+}
+.txtPoweredby {
+	font-size: 10px;
+	font-weight: bold;
+	text-align: right;
+}
+.txtWelcome {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.txtSmall {
+	font-size: 10px;
+}
+.txtSmallFaded {
+	font-size: 11px;
+	color: #999999;
+}
+.txtRed {
+	color: #FF0000;
+}
+.txtTitle {
+	color: #CC3300;
+	font-weight: bold;
+}
+.txtInstruct {
+	color: #FF3300;
+}
+.txtNB {
+	font-style: italic;
+}
+.txtMSG {
+	color: #CC0000;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+hr {
+	color:#99CCFF ;
+	height: 1px;
+	border: 0;
+	color: #333;
+	background-color: #333;
+	width: 100%;
+}

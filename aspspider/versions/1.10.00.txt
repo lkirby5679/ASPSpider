@@ -1,0 +1,27 @@
+
+	Main changes to form v 1.10.00
+	
+	In addition to these changes, we caught a number of small bugs.
+	
+	GENERAL
+	=======
+	
+		* 	renamed several files to come into line with site procedure: "_NAME.ASP" for code, "NAME.ASP" for 
+			visible files and updated links to those files
+		
+			- ADMIN/SPIDERINDEX/SPIDERCODE.ASP > _SPIDERCODE.ASP
+			- ADMIN/SPIDERINDEX/DELETEURL.ASP > _DELETEURL.ASP
+			
+		*	created a new folder called CONFIG which contains the files which a user must config in order to 
+			set the site to their own specs; to get a site up and running the site will only need to have files
+			in this folder and the MEDIA folder changed (initially, at least); moved to this folder COMMON.ASP,
+			META.ASP and STYLE.CSS which has a completely new style sheet for the site.
+			
+		*	Took look and feel from the individual files and placed them entirely in CSS.
+
+
+	ADMIN/EDITPAGE.ASP
+	==================
+
+		New file to allow editing of individual pages within the DB.
+

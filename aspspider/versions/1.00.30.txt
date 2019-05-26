@@ -1,0 +1,10 @@
+
+	CHANGES MADE WITH V1.00.30
+
+	* Added fIndexDate field to the pages table so that dates of spidering are recorded; this way pages are only spidered if they haven't been spidered for x days (set by variable in INCLUDE/COMMON.ASP)
+
+	* universal runcmd function added to INCLUDE/FUNCTIONS.ASP and changes made to code elsewhere to use this
+
+	* moved code from some files into CODE directory to allow for easier updating in future without changing the look of the site
+	
+	* display only total of links collected, not individual links

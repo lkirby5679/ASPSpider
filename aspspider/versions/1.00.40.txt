@@ -1,0 +1,31 @@
+
+	ALL
+		
+		* moved all files but DW TEMPLATES and DEFAULT.ASP and RESULTS.ASP from the root directory into the ASPSPIDER subdirectory in order to facilitate using the ASP Spider in an existing site
+		
+		
+	TEMPLATES
+	
+		* renamed templates to allow for easier integration into other sites
+
+	ADMIN/SPIDERCODE.ASP
+	
+		* changed SQL to prevent bad urls crashing system by removing ' character
+		
+		* added box around progress bar to show limit visually
+		
+		* added option to make the display just show the progress bar and not the full results of each page spidered
+		
+	INCLUDE/FUNCTIONS.ASP
+	
+		* "function CollectLinks" improved
+	
+	INCLUDE/COMMON.ASP
+	
+		* added variable to turn off detailed display of spidering; by default this is set to FALSE so detail doesn't show
+
+		* added variable for the domain to be searched in the Simple Site Search; by default this is set to the domain of the site
+		
+	INCLUDE/SSS.ASP and INCLUDE/SSS_RESULTS.ASP
+	
+		* created new file which has a very simple search box for searching a single site described by the variable in COMMON.ASP
